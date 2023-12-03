@@ -1,0 +1,14 @@
+{
+  "name": "dialogs-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build-ui",
+    "build-ui": "npx browserify docs/lib/ui-script/components/api.js --outfile docs/lib/ui-script/ui-script.js",
+    "start": "npx http-server -c-1 docs -o index.1.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
