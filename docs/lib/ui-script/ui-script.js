@@ -216,7 +216,9 @@ html_vue += "  " + title;
 html_vue += " </xwindowtitle>";
 html_vue += " <xwindowbody>";
 html_vue += "  <form v-on:submit='finalize_dialog'>";
+html_vue += "   <xlayout>";
 html_vue += "   " + html;
+html_vue += "   </xlayout>";
 html_vue += "  </form>";
 html_vue += " </xwindowbody>";
 if(footer) {
@@ -246,7 +248,9 @@ html_vue += "  " + title;
 html_vue += " </xwindowtitle>";
 html_vue += " <xwindowbody>";
 html_vue += "  <form v-on:submit='finalize_dialog'>";
+html_vue += "   <xlayout>";
 html_vue += "   " + html;
+html_vue += "   </xlayout>";
 html_vue += "   <div style='text-align:right;padding:4px;border-top:1px solid #CCC;'>";
 html_vue += "     <button v-on:click='finalize_dialog_accepting'>";
 html_vue += "       " + button_accept;
@@ -283,7 +287,9 @@ html_vue += "  " + title;
 html_vue += " </xwindowtitle>";
 html_vue += " <xwindowbody>";
 html_vue += "  <form v-on:submit='finalize_dialog'>";
+html_vue += "   <xlayout>";
 html_vue += "   " + html;
+html_vue += "   </xlayout>";
 html_vue += "   <div style='text-align:right;padding:4px;border-top:1px solid #CCC;'>";
 html_vue += "     <button v-on:click='finalize_dialog_accepting'>";
 html_vue += "       " + button_accept;
@@ -532,7 +538,7 @@ throw error;
 
 },
 async form_by_parameters( html,
-title = "Message",
+title = "Mensaje",
 footer = false ) {try {
 const promise_handler = { 
 };
@@ -593,7 +599,7 @@ throw error;
 
 },
 async confirm_by_parameters( html,
-title = "Message",
+title = "Mensaje",
 footer = false,
 button_accept = "Sí",
 button_reject = "No" ) {try {
@@ -657,7 +663,7 @@ throw error;
 
 },
 async inform_by_parameters( html,
-title = "Message",
+title = "Mensaje",
 footer = false,
 button_accept = "Sí" ) {try {
 const promise_handler = { 

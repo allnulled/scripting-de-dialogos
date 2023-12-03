@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build-ui",
-    "build-ui": "npx browserify docs/lib/ui-script/components/api.js --outfile docs/lib/ui-script/ui-script.js",
+    "build-ui": "npx browserify docs/lib/ui-script/components/api.js --outfile docs/lib/ui-script/ui-script.js && cp docs/index.1.html docs/index.html",
     "start": "npx http-server -c-1 docs -o index.1.html"
   },
   "keywords": [],
