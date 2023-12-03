@@ -14,4 +14,4 @@ Puedes usar [Castelog](https://github.com/allnulled/castelog) para crear scripts
   - `confirmar` que es `Vue.prototype.$dialogs.confirm`
   - `formulario` que es `Vue.prototype.$dialogs.form`
 
-Estaríamos usando la [API de Diálogos de ui-script](https://github.com/allnulled/ui-script), concretamente el componente `<xdialogport></xdialogport>`.
+Estaríamos usando la [API de Diálogos de ui-script](https://github.com/allnulled/ui-script-language), concretamente el componente `<xdialogport></xdialogport>`.
